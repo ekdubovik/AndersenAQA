@@ -37,20 +37,20 @@ public class HomeWorkApp {
         if (value <= 0) {
             System.out.println("Red");
         }
-        if (value > 0 && value <= 100){
+        if (value > 0 && value <= 100) {
             System.out.println("Yellow");
         }
-        if (value > 100){
+        if (value > 100) {
             System.out.println("Green");
         }
     }
+
     public static void compareNumbers() {
         int a = 5;
         int b = 10;
-        if (a >= b){
+        if (a >= b) {
             System.out.println("a >= b");
-        }
-        else {
+        } else {
             System.out.println("a < b");
         }
     }
